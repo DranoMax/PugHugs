@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIDisplay-Medium.otf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CenterButtonCell" id="C1p-or-bBy" customClass="PHCenterButtonCell" customModule="PugHugs" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="C1p-or-bBy" id="Un0-xx-qJi">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o05-K6-oNs">
+                        <rect key="frame" x="15" y="6" width="345" height="30"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="15"/>
+                        <state key="normal" title="Remove Pet Profile">
+                            <color key="titleColor" red="0.78600090742111206" green="0.14042940735816956" blue="0.07785535603761673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="centerButtonPressed:" destination="C1p-or-bBy" eventType="touchUpInside" id="0vB-nA-Xgq"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="o05-K6-oNs" firstAttribute="centerY" secondItem="Un0-xx-qJi" secondAttribute="centerY" id="0Zf-zR-tzd"/>
+                    <constraint firstItem="o05-K6-oNs" firstAttribute="leading" secondItem="Un0-xx-qJi" secondAttribute="leading" constant="15" id="Mgy-cb-Vms"/>
+                    <constraint firstAttribute="trailing" secondItem="o05-K6-oNs" secondAttribute="trailing" constant="15" id="tgK-EH-egw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="14" y="98"/>
+        </tableViewCell>
+    </objects>
+</document>

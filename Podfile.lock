@@ -1,0 +1,24 @@
+PODS:
+  - CropViewController (2.3.6)
+  - IQKeyboardManager (6.1.1)
+  - "UITextView+Placeholder (1.2.0)"
+
+DEPENDENCIES:
+  - CropViewController (~> 2.3.6)
+  - IQKeyboardManager (~> 6.1.1)
+  - "UITextView+Placeholder (~> 1.2.0)"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CropViewController
+    - IQKeyboardManager
+    - "UITextView+Placeholder"
+
+SPEC CHECKSUMS:
+  CropViewController: e6d4bd512d15a1709e9ddf71fe7d98ffd05dda0f
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  "UITextView+Placeholder": 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+
+PODFILE CHECKSUM: 30654736a0371486ce8039d73a0ea259c4182774
+
+COCOAPODS: 1.5.3

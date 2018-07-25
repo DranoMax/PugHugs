@@ -295,7 +295,7 @@ class PHAddDogViewController: UIViewController {
         self.coreDataManager.saveDogWith(image: self.dogImageView.image,
                                          dogName: self.dogNameTextField.text,
                                          ownerName: self.ownerTextField.text,
-                                         summary: self.ownerTextField.text,
+                                         summary: self.summaryTextView.text,
                                          success: { (newDog) in
                                             // On success, let's inform our delegate!
                                             self.delegate?.savedNewDogModel(newDog)
